@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+
+.rs-container {
+  flex-direction: row;
+}
+
+.rs-container .rs-container {
+  flex-direction: column;
+}
+
+.rs-nav {
+  width: 150px;
+}
+
+.loan-status-1 {
+  color: darkorange;
+}
+.loan-status-2 {
+  color: green;
+}
+.loan-status-3 {
+  color: red;
+}
+
+img {
+  width: 100%;
+}
